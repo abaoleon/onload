@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="stylesheet" src="onload.js"></script>
+    </head>
+    <body bgcolor="lightblue">
+        <button onclick="demo()">click</button>
+   
+        <p>Assign an on event to an iframe element</p>
+        <iframe onload="myFunction()"src="/default.asp"></iframe>
+       
+        <script>
+        function myFunction{
+            document.getElementById("demo").innerHTML="Hello World";
+}
+    </script>
+          <h1 id="demo">Hello World</h1>
+          <a href="https://abaoleon.github.io/event/event.html">event</a>
+          
+    </body>
+</html>
